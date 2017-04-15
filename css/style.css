@@ -1,0 +1,84 @@
+/*reset all elements*/
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Abel', sans-serif;
+}
+body{
+  padding: 50px 150px;
+}
+header{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  height: 60px;
+}
+.info{
+  text-align: right;
+  text-transform: uppercase;
+}
+.info h1{
+  font-weight: lighter;
+}
+hr{
+  margin: 20px 0;
+  border: 1px solid black;
+  position: relative;
+}
+.main-image{
+  position: relative;
+  width: 100%
+}
+.main-image img{
+  width: 100%;
+}
+.featured-work{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+.projects{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project{
+  width: 30%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.project img{
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+.project a{
+  margin: 10px 0;
+  display: block;
+}
+footer{
+  text-align: center;
+}
+
+@media screen and (max-width: 880px) {
+  body{
+    padding: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .project{
+    width: 47%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project{
+    width: 100%;
+  }
+}
